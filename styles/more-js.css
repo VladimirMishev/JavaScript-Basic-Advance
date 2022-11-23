@@ -1,0 +1,60 @@
+body {
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+p {
+    font-weight: 200;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    margin-bottom: 2rem;
+}
+
+main {
+    width: 50%;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: rgb(254, 254, 170);
+    border-radius: 0.5rem;
+    box-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.3) ;
+}
+
+h2 {
+    margin-top: 0.5rem;
+}
+
+button {
+    background-color: yellow;
+    padding: 0.3rem 1.3rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.3rem;
+    transition: background-color 1s ease-out;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(200, 200, 11);
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: rgb(140, 140, 2);
+    margin: 0.5rem auto;
+}
+
+a:hover {
+    color: black;
+}
+
+.textColor {
+    background-color: blue;
+}
